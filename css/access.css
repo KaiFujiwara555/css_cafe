@@ -104,8 +104,18 @@ header nav ul li.current a {
   height:100%;
 }
 
+.slide_show {
+  width: 750px;
+  height: 540px;
+  margin: 10px auto;
+}
+
 .near_images {
   display: flex;
+}
+
+.near_images div {
+  margin: 0px 3px;
 }
 
 /* footer */
