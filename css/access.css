@@ -66,6 +66,13 @@ header nav ul li.current a {
 }
 
 /* contents */
+.address {
+  display: flex;
+}
+
+.near_images {
+  display: flex;
+}
 
 /* footer */
 
