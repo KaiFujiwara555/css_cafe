@@ -1,5 +1,5 @@
 // 特定の要素の配下imgタグのsrc要素を配列で取得する
-function get_img_href(element) {
+function get_img_src(element) {
     const img_elements = element.getElementsByTagName('img');
     
     let img_hrefs = new Array(img_elements.length);
