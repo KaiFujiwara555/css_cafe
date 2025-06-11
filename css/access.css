@@ -124,6 +124,13 @@ header nav ul li.current a {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.near_images img:hover {
+  opacity: 0.5;
+  transition:0.3s;
 }
 
 /* footer */
