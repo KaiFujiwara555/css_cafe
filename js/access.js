@@ -9,3 +9,9 @@ function get_img_src(element) {
     
     return img_hrefs;
 }
+
+// 特定の要素のsrc要素を変更する
+function set_img_src(element, src_url) {
+    console.log(element);
+    element.src = src_url
+}
